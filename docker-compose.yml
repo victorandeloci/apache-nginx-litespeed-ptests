@@ -6,6 +6,7 @@ services:
       - "8081:80"
     volumes:
       - ./html:/usr/local/apache2/htdocs
+      - ./config/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
     restart: always
 
   nginx:
