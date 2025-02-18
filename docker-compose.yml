@@ -27,4 +27,5 @@ services:
     volumes:
       # copy local html to default litespeed index
       - ./html:/usr/local/lsws/Example/html
+      - ./config/litespeed/.htaccess:/usr/local/lsws/Example/html/.htaccess
     restart: always

@@ -1,0 +1,15 @@
+# Basic Security Headers
+<IfModule mod_headers.c>
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# Deny Access to Sensitive Files
+<FilesMatch "(^\.htaccess|\.env|\.git|composer\.json|composer\.lock)">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Restrict Directory Browsing
+Options -Indexes
