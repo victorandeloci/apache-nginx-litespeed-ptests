@@ -24,6 +24,14 @@ The container should start listening in 3 different addresses:
 - Nginx: http://localhost:8082
 - LiteSpeed: http://localhost:8083
 
+## Configuration
+All web servers main config files are located in <code>/config</code> directory:
+- <code>/config/apache/httpd.conf</code> for Apache
+- <code>/config/nginx/nginx.conf</code> for NGINX
+- <code>/config/litespeed/.htaccess</code> for OpenLiteSpeed
+
+The Docker containers will mount the config files in their correct locations.
+
 ## ApacheBench - ab
 ApacheBench is a tool designed for benchmarking http servers. You can test the container web servers we just configured with the following commands:
 ```
