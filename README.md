@@ -27,9 +27,9 @@ The container should start listening in 3 different addresses:
 ## ApacheBench - ab
 ApacheBench is a tool designed for benchmarking http servers. You can test the container web servers we just configured with the following commands:
 ```
-ab -n 1000 -c 100 http://localhost:8081/ #apache
-ab -n 1000 -c 100 http://localhost:8082/ #nginx
-ab -n 1000 -c 100 http://localhost:8083/ #litespeed
+ab -n 1000 -c 100 http://localhost:8081 #apache
+ab -n 1000 -c 100 http://localhost:8082 #nginx
+ab -n 1000 -c 100 http://localhost:8083 #litespeed
 ```
 - <code>-n 1000</code> specifies 1000 requests
 - <code>-c 100</code> specifies 100 simultaneos connections
