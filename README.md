@@ -7,7 +7,7 @@ By now, it starts up 3 different services:
 - OpenLiteSpeed
 
 ### Info
-The default test subject page here is based on: https://github.com/cbracco/html5-test-page
+The default test subject page here (<code>html/index.html</code>) is based on: https://github.com/cbracco/html5-test-page
 
 ## Quickstart
 - Make sure you have [Docker](https://docs.docker.com/desktop/) installed.
