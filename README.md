@@ -8,6 +8,9 @@ By now, it starts up 3 different services:
 
 ### Info
 The default test subject page here (<code>html/index.html</code>) is based on: https://github.com/cbracco/html5-test-page
+- Sample image by: https://placekitten.com/
+- Sample audio by: https://file-examples.com/
+- Sample video by: https://www.sample-videos.com/
 
 ## Quickstart
 - Make sure you have [Docker](https://docs.docker.com/desktop/) installed.
